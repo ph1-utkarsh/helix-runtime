@@ -1,0 +1,366 @@
+{
+  "attention": [
+    {
+      "length": 16,
+      "median_seconds": 0.00012470900000000062,
+      "samples_seconds": [
+        0.00013070800000000715,
+        0.000399874999999994,
+        0.0001399170000000033,
+        0.00012470900000000062,
+        0.00012320899999999912,
+        0.00012016600000000488,
+        0.00012099999999999611
+      ]
+    },
+    {
+      "length": 64,
+      "median_seconds": 0.00025812499999999794,
+      "samples_seconds": [
+        0.00026437499999999725,
+        0.00025812499999999794,
+        0.00025912499999999894,
+        0.0002581660000000041,
+        0.0002562910000000057,
+        0.0002554580000000001,
+        0.00025558400000000314
+      ]
+    },
+    {
+      "length": 256,
+      "median_seconds": 0.0052075420000000094,
+      "samples_seconds": [
+        0.005634541999999992,
+        0.003711124999999982,
+        0.004727208999999982,
+        0.004239875000000004,
+        0.0052075420000000094,
+        0.00572745899999999,
+        0.030920582999999974
+      ]
+    }
+  ],
+  "policies": {
+    "static": {
+      "ticks": 133,
+      "output_tokens": 1095,
+      "tokens_per_tick": 8.233082706766917,
+      "requests": [
+        {
+          "name": "r0",
+          "ttft": 1,
+          "tpot": 1.0
+        },
+        {
+          "name": "r1",
+          "ttft": 2,
+          "tpot": 1.0
+        },
+        {
+          "name": "r2",
+          "ttft": 3,
+          "tpot": 1.0
+        },
+        {
+          "name": "r3",
+          "ttft": 4,
+          "tpot": 1.0
+        },
+        {
+          "name": "r4",
+          "ttft": 7,
+          "tpot": 1.0
+        },
+        {
+          "name": "r5",
+          "ttft": 10,
+          "tpot": 1.0
+        },
+        {
+          "name": "r6",
+          "ttft": 13,
+          "tpot": 1.0
+        },
+        {
+          "name": "r7",
+          "ttft": 14,
+          "tpot": 1.0
+        },
+        {
+          "name": "r8",
+          "ttft": 15,
+          "tpot": 1.0
+        },
+        {
+          "name": "r9",
+          "ttft": 16,
+          "tpot": 1.0
+        },
+        {
+          "name": "r10",
+          "ttft": 19,
+          "tpot": 1.0
+        },
+        {
+          "name": "r11",
+          "ttft": 22,
+          "tpot": 1.0
+        },
+        {
+          "name": "r12",
+          "ttft": 25,
+          "tpot": 1.0
+        },
+        {
+          "name": "r13",
+          "ttft": 25,
+          "tpot": 1.0
+        },
+        {
+          "name": "r14",
+          "ttft": 26,
+          "tpot": 1.0
+        },
+        {
+          "name": "r15",
+          "ttft": 27,
+          "tpot": 1.0
+        },
+        {
+          "name": "r16",
+          "ttft": 29,
+          "tpot": 1.0
+        },
+        {
+          "name": "r17",
+          "ttft": 33,
+          "tpot": 1.0
+        },
+        {
+          "name": "r18",
+          "ttft": 36,
+          "tpot": 1.0
+        },
+        {
+          "name": "r19",
+          "ttft": 40,
+          "tpot": 1.0
+        },
+        {
+          "name": "r20",
+          "ttft": 41,
+          "tpot": 1.0
+        },
+        {
+          "name": "r21",
+          "ttft": 41,
+          "tpot": 1.0
+        },
+        {
+          "name": "r22",
+          "ttft": 43,
+          "tpot": 1.0
+        },
+        {
+          "name": "r23",
+          "ttft": 46,
+          "tpot": 1.0
+        },
+        {
+          "name": "r24",
+          "ttft": 49,
+          "tpot": 1.0
+        },
+        {
+          "name": "r25",
+          "ttft": 53,
+          "tpot": 1.0
+        },
+        {
+          "name": "r26",
+          "ttft": 54,
+          "tpot": 1.0
+        },
+        {
+          "name": "r27",
+          "ttft": 54,
+          "tpot": 1.0
+        },
+        {
+          "name": "r28",
+          "ttft": 56,
+          "tpot": 1.0
+        },
+        {
+          "name": "r29",
+          "ttft": 59,
+          "tpot": 1.0
+        }
+      ],
+      "p95_ttft": 55.099999999999994,
+      "p95_tpot": 1.0
+    },
+    "adaptive": {
+      "ticks": 133,
+      "output_tokens": 1095,
+      "tokens_per_tick": 8.233082706766917,
+      "requests": [
+        {
+          "name": "r0",
+          "ttft": 1,
+          "tpot": 1.0
+        },
+        {
+          "name": "r1",
+          "ttft": 2,
+          "tpot": 1.0
+        },
+        {
+          "name": "r2",
+          "ttft": 4,
+          "tpot": 1.0
+        },
+        {
+          "name": "r3",
+          "ttft": 5,
+          "tpot": 1.0
+        },
+        {
+          "name": "r4",
+          "ttft": 8,
+          "tpot": 1.0
+        },
+        {
+          "name": "r5",
+          "ttft": 12,
+          "tpot": 1.0
+        },
+        {
+          "name": "r6",
+          "ttft": 18,
+          "tpot": 1.0
+        },
+        {
+          "name": "r7",
+          "ttft": 8,
+          "tpot": 1.0
+        },
+        {
+          "name": "r8",
+          "ttft": 11,
+          "tpot": 1.0
+        },
+        {
+          "name": "r9",
+          "ttft": 15,
+          "tpot": 1.0
+        },
+        {
+          "name": "r10",
+          "ttft": 20,
+          "tpot": 1.0
+        },
+        {
+          "name": "r11",
+          "ttft": 23,
+          "tpot": 1.0
+        },
+        {
+          "name": "r12",
+          "ttft": 29,
+          "tpot": 1.0
+        },
+        {
+          "name": "r13",
+          "ttft": 20,
+          "tpot": 1.0
+        },
+        {
+          "name": "r14",
+          "ttft": 22,
+          "tpot": 1.0
+        },
+        {
+          "name": "r15",
+          "ttft": 26,
+          "tpot": 1.0
+        },
+        {
+          "name": "r16",
+          "ttft": 30,
+          "tpot": 1.0
+        },
+        {
+          "name": "r17",
+          "ttft": 34,
+          "tpot": 1.0
+        },
+        {
+          "name": "r18",
+          "ttft": 38,
+          "tpot": 1.0
+        },
+        {
+          "name": "r19",
+          "ttft": 43,
+          "tpot": 1.0
+        },
+        {
+          "name": "r20",
+          "ttft": 31,
+          "tpot": 1.0
+        },
+        {
+          "name": "r21",
+          "ttft": 41,
+          "tpot": 1.0
+        },
+        {
+          "name": "r22",
+          "ttft": 45,
+          "tpot": 1.0
+        },
+        {
+          "name": "r23",
+          "ttft": 48,
+          "tpot": 1.0
+        },
+        {
+          "name": "r24",
+          "ttft": 51,
+          "tpot": 1.0
+        },
+        {
+          "name": "r25",
+          "ttft": 55,
+          "tpot": 1.0
+        },
+        {
+          "name": "r26",
+          "ttft": 45,
+          "tpot": 1.0
+        },
+        {
+          "name": "r27",
+          "ttft": 53,
+          "tpot": 1.0
+        },
+        {
+          "name": "r28",
+          "ttft": 57,
+          "tpot": 1.0
+        },
+        {
+          "name": "r29",
+          "ttft": 59,
+          "tpot": 1.0
+        }
+      ],
+      "p95_ttft": 56.099999999999994,
+      "p95_tpot": 1.0
+    }
+  },
+  "adaptive_throughput_gain_percent": 0.0,
+  "interpretation": "CPU kernel timing plus deterministic scheduler simulation; not production serving evidence",
+  "paid_spend": 0
+}

@@ -1,0 +1,56 @@
+{
+  "quantization": {
+    "float_bytes": 24576,
+    "int8_bytes": 6912,
+    "reduction_percent": 71.875,
+    "max_weight_error": 0.0027892589569091797
+  },
+  "greedy_median_seconds": 0.0016954159999999913,
+  "greedy_samples_seconds": [
+    0.009350750000000005,
+    0.0022785000000000027,
+    0.0017062499999999925,
+    0.0016954159999999913,
+    0.0016903340000000017,
+    0.0016861670000000023,
+    0.001686291999999992
+  ],
+  "speculative": {
+    "matched": {
+      "accepted": 32,
+      "proposed": 32,
+      "acceptance_rate": 1.0,
+      "target_batches": 8,
+      "exact_target_output": true,
+      "median_seconds": 0.002221082999999985,
+      "samples_seconds": [
+        0.007121875,
+        0.012792875000000009,
+        0.002221082999999985,
+        0.0022220839999999853,
+        0.0021741659999999774,
+        0.002165708000000016,
+        0.002164708000000015
+      ]
+    },
+    "adversarial": {
+      "accepted": 0,
+      "proposed": 32,
+      "acceptance_rate": 0.0,
+      "target_batches": 32,
+      "exact_target_output": true,
+      "median_seconds": 0.00892641700000002,
+      "samples_seconds": [
+        0.009096750000000015,
+        0.008992959000000023,
+        0.008963374999999996,
+        0.00892641700000002,
+        0.008891457999999991,
+        0.008877250000000003,
+        0.008871792000000017
+      ]
+    }
+  },
+  "paid_spend": 0,
+  "interpretation": "tiny deterministic fixture; Python overhead and acceptance sensitivity, not production speed"
+}

@@ -1,0 +1,8 @@
+{
+  "seed": 0,
+  "repeats": 9,
+  "mlx": "0.32.2",
+  "paid_spend": 0,
+  "script_sha256": "8335239dc4dfa1d6a3a2aed6315612765aae34a4822633bbd856885f8c480c37",
+  "device": "Device(gpu, 0)"
+}

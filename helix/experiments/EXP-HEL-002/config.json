@@ -1,0 +1,14 @@
+{
+  "seed": 0,
+  "attention_shapes": [
+    16,
+    64,
+    256
+  ],
+  "scheduler_budget": 64,
+  "chunk": 32,
+  "python": "3.9.6",
+  "numpy": "1.26.4",
+  "paid_spend": 0,
+  "script_sha256": "a8995fec6e23370d396186e6ccfd239eb628f91f741bb7ded1f68971c6248560"
+}

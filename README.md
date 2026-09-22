@@ -1,5 +1,7 @@
 # Helix
 
+[![tests](https://github.com/ph1-utkarsh/helix-runtime/actions/workflows/tests.yml/badge.svg)](https://github.com/ph1-utkarsh/helix-runtime/actions/workflows/tests.yml) [![license: MIT](https://img.shields.io/badge/license-MIT-74b9ff.svg)](LICENSE)
+
 **A small inference runtime rebuilt from first principles and measured on Apple Metal and CPU.**
 
 Helix owns the mechanisms that are normally hidden behind an inference framework: numerically stable attention, RoPE, RMSNorm, KV caching, paged allocation, prefix reuse, continuous scheduling, streaming HTTP output, INT8 weights, and exact speculative decoding.

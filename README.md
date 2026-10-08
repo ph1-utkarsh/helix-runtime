@@ -73,4 +73,4 @@ Helix demonstrates correctness, mechanism ownership and honest local measurement
 
 ## License
 
-MIT © 2026 Sanjay Bisen.
+MIT © 2026 Utkarsh Sharma.
